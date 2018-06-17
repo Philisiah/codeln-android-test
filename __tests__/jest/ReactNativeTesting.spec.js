@@ -1,7 +1,7 @@
-jest.unmock('../../src/components/LoadingModal/index');
-
+jest.unmock('../../App');
 import '../testutils/jest';
-import ReactNativeTesting from '../../src/components/LoadingModal/index';
+import ReactNativeTesting from '../../App';
+
 
 describe('ReactNativeTesting', () => {
   let component;
